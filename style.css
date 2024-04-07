@@ -84,15 +84,30 @@
     transform: translate(-443px,0px);
     position: absolute;
 }
-@media only screen and (max-width:766px) {
+@media only screen and (max-width:391px) {
     
     .sidebar{
         width: 62vw;
     }
     .sidebar nav li{
         font-size: 24px;
+
     }
     .cross {
         margin-left: 191px;
     }
+    .main h1 {
+        font-size: 31px;
+        padding-right: 202px;
+    }
+    .sidebar nav li{
+        font-size: 21px;
+    }
+    .main table{
+        font-size: 19px;
+    }
+    .main {
+        width: 100vw;
+    }
+
 }
